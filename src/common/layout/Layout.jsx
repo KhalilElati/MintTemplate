@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import favIcon from "../../assets/images/fav_icon.ico"
+import favIcon from "../../assets/images/solana-sol-logo.png"
 const Layout = ({ children }) => {
   return (
     <>
@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
         <meta charset="utf-8" />
         <title>
           {" "}
-          Bithu - NFT Minting/Collection Landing Page React-Nextjs Template
+          Solana - NFT Minting/Collection Landing Page React Template
         </title>
         <meta name="description" content="" />
         <link rel="shortcut icon" type="image/x-icon" href={favIcon} />
