@@ -33,9 +33,9 @@ const MintNowModal = () => {
                   </li>
                   <li>
                     <h5>Price</h5>
-                    <h5>0.15 ETH</h5>
+                    <h5>0.15 SOL</h5>
                   </li>
-                  <li>
+                  {/* <li>
                     <h5>Quantity</h5>
                     <div className="mint_quantity_sect">
                       <button
@@ -54,9 +54,9 @@ const MintNowModal = () => {
                       <button onClick={() => setCount(count + 1)}>+</button>
                     </div>
                     <h5>
-                      <span>0.30</span> ETH
+                      <span>0.30</span> SOL
                     </h5>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
               <div className="modal_mint_btn">
